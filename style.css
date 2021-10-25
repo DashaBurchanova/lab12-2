@@ -1,0 +1,103 @@
+body {
+    background: #234142;
+   font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.main {
+    position: static;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 70px;
+    letter-spacing: 15px;
+    font-weight: 700;
+    position: absolute;
+    right: 100px;
+    top: 400px;
+}
+
+.logomin {
+    
+    font-size: 42px;
+    letter-spacing: 5px;
+    color: #d9be11;
+    position: absolute;
+    right: 75px;
+    top: 500px;
+    width: 600px;
+}
+
+.photo1 {
+    position: absolute;
+    left: 60px;
+}
+
+.photo2 {
+    position: absolute;
+    z-index: 100;
+    top: 250px;
+    left: 350px;
+}
+
+.text {
+    
+    font-size: 32px;
+    position: static;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+
+.photos {
+   display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 60px;
+   
+}
+
+.block1__text {
+    font-size: 28px;
+    text-align: center;
+    width: 1000px;
+    margin-left: 250px;
+    
+}
+
+.block2 {
+   margin-left: 400px;
+    margin-top: 60px;
+}
+
+.block2__text {
+    font-size: 28px;
+    padding-left: 130px;
+}
+
+.block3 {
+    margin-top: 90px;
+    
+}
+
+.photos2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.img2 {
+    padding-top: 200px;
+}
+
+.block3__text {
+    font-size: 32px;
+    position: absolute;
+    left: 700px;
+    top: 2400px;
+    color: #d9be11;
+}
